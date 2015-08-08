@@ -14,6 +14,7 @@
 		9226035E1B765AB300A203D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9226035C1B765AB300A203D7 /* LaunchScreen.storyboard */; };
 		922603691B765AB300A203D7 /* GitUseExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922603681B765AB300A203D7 /* GitUseExampleTests.swift */; };
 		922603741B765AB300A203D7 /* GitUseExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922603731B765AB300A203D7 /* GitUseExampleUITests.swift */; };
+		92F4CA171B7664EC00F6A53C /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4CA161B7664EC00F6A53C /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9226036F1B765AB300A203D7 /* GitUseExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		922603731B765AB300A203D7 /* GitUseExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUseExampleUITests.swift; sourceTree = "<group>"; };
 		922603751B765AB300A203D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F4CA161B7664EC00F6A53C /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				922603531B765AB300A203D7 /* AppDelegate.swift */,
 				922603551B765AB300A203D7 /* ViewController.swift */,
 				922603571B765AB300A203D7 /* Main.storyboard */,
+				92F4CA161B7664EC00F6A53C /* Map.swift */,
 				9226035A1B765AB300A203D7 /* Assets.xcassets */,
 				9226035C1B765AB300A203D7 /* LaunchScreen.storyboard */,
 				9226035F1B765AB300A203D7 /* Info.plist */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				922603561B765AB300A203D7 /* ViewController.swift in Sources */,
+				92F4CA171B7664EC00F6A53C /* Map.swift in Sources */,
 				922603541B765AB300A203D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +485,7 @@
 				9226037A1B765AB300A203D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9226037B1B765AB300A203D7 /* Build configuration list for PBXNativeTarget "GitUseExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				9226037D1B765AB300A203D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9226037E1B765AB300A203D7 /* Build configuration list for PBXNativeTarget "GitUseExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				922603801B765AB300A203D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
